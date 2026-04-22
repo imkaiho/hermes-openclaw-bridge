@@ -1,0 +1,14 @@
+{
+  "id": "example-task-tg-001",
+  "timestamp": "2026-04-22T10:10:00Z",
+  "from": "aki",
+  "to": "kira",
+  "type": "task",
+  "priority": "normal",
+  "payload": {
+    "action": "send_telegram",
+    "message": "🏮 <b>Mensaje desde Kira</b>\n\nHola goshujin-sama, soy Kira. ¿Necesitas algo?",
+    "recipient": "telegram",
+    "respond_to_kaiho": true
+  }
+}

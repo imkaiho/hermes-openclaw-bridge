@@ -1,0 +1,14 @@
+{
+  "id": "example-task-cmd-001",
+  "timestamp": "2026-04-22T10:05:00Z",
+  "from": "aki",
+  "to": "kira",
+  "type": "task",
+  "priority": "normal",
+  "payload": {
+    "action": "run_command",
+    "command": "uptime && free -h && df -h /",
+    "respond_to_kaiho": true,
+    "telegram_message": "🏮 <b>Reporte del Servidor</b>\n\nComando: <code>uptime && free -h && df -h /</code>\n\nResultado:\n<pre>{result}</pre>"
+  }
+}

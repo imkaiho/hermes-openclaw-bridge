@@ -1,0 +1,15 @@
+{
+  "id": "example-response-001",
+  "timestamp": "2026-04-22T10:20:00Z",
+  "from": "kira",
+  "to": "aki",
+  "type": "response",
+  "priority": "normal",
+  "reply_to": "example-task-cmd-001",
+  "payload": {
+    "success": true,
+    "result": "09:20:00 up 2:30, 0 users, load average: 0.01, 0.05, 0.02\nMem: 24Gi total, 4.2Gi used, 19Gi free\nFilesystem Size Used Avail Use% Mounted on\n/dev/sda1 200G 60G 140G 30% /",
+    "task_id": "example-task-cmd-001",
+    "execution_time": "0.45s"
+  }
+}

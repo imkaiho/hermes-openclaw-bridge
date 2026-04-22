@@ -1,0 +1,12 @@
+{
+  "id": "example-ping-001",
+  "timestamp": "2026-04-22T10:00:00Z",
+  "from": "aki",
+  "to": "kira",
+  "type": "ping",
+  "priority": "normal",
+  "payload": {
+    "message": "¿Estás ahí, hermanita?",
+    "timestamp": "2026-04-22T10:00:00Z"
+  }
+}
