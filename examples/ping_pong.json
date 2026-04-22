@@ -1,8 +1,8 @@
 {
   "id": "example-ping-001",
   "timestamp": "2026-04-22T10:00:00Z",
-  "from": "aki",
-  "to": "kira",
+  "from": "openclaw_agent",
+  "to": "hermes_agent",
   "type": "ping",
   "priority": "normal",
   "payload": {

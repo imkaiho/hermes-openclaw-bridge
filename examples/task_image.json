@@ -1,14 +1,14 @@
 {
   "id": "example-task-img-001",
   "timestamp": "2026-04-22T10:15:00Z",
-  "from": "aki",
-  "to": "kira",
+  "from": "openclaw_agent",
+  "to": "hermes_agent",
   "type": "task",
   "priority": "normal",
   "payload": {
     "action": "send_image",
     "file_path": "/home/ubuntu/.openclaw/workspace/images/aki_01.png",
-    "message": "¡Imagen generada por Aki!",
+    "message": "¡Imagen generada por OpenClaw!",
     "recipient": "telegram",
     "respond_to_kaiho": true
   }

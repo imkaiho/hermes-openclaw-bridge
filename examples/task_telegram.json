@@ -1,13 +1,13 @@
 {
   "id": "example-task-tg-001",
   "timestamp": "2026-04-22T10:10:00Z",
-  "from": "aki",
-  "to": "kira",
+  "from": "openclaw_agent",
+  "to": "hermes_agent",
   "type": "task",
   "priority": "normal",
   "payload": {
     "action": "send_telegram",
-    "message": "🏮 <b>Mensaje desde Kira</b>\n\nHola goshujin-sama, soy Kira. ¿Necesitas algo?",
+    "message": "🏮 <b>Mensaje desde Hermes</b>\n\nHola goshujin-sama, soy Hermes. ¿Necesitas algo?",
     "recipient": "telegram",
     "respond_to_kaiho": true
   }

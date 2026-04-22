@@ -3,8 +3,8 @@
   "id": "signal-tg-001",
   "timestamp": "2026-04-22T10:25:00Z",
   "signal_type": "telegram_send",
-  "from_agent": "kira",
-  "to_agent": "aki",
+  "from_agent": "hermes_agent",
+  "to_agent": "openclaw_agent",
   "status": "pending",
   "payload": {
     "file_path": "/home/ubuntu/.openclaw/workspace/images/report.png",

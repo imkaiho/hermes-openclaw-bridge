@@ -13,8 +13,8 @@ Un **sistema de bridge** (puente) que conecta:
 - **OpenClaw** - Framework de agentes multi-canal (Telegram, WhatsApp, etc.)
 
 **Caso de uso principal:** Tener múltiples agentes especializados trabajando juntos:
-- **Aki (OpenClaw)** - Coordinadora principal, comunicación con usuario
-- **Kira (Hermes)** - Especialista en código, DevOps, comandos de sistema
+- **Agente OpenClaw** - Coordinador principal, comunicación con usuario (Telegram, WhatsApp, etc.)
+- **Agente Hermes** - Especialista en código, DevOps, comandos de sistema
 
 ---
 
@@ -23,7 +23,7 @@ Un **sistema de bridge** (puente) que conecta:
 ```
 ┌─────────────────┐         ┌──────────────────┐         ┌─────────────────┐
 │   OpenClaw      │         │   Bridge         │         │   Hermes        │
-│   (Aki)         │◄───────►│   (File-based)   │◄───────►│   (Kira)        │
+│   (Agent)       │◄───────►│   (File-based)   │◄───────►│   (Agent)       │
 │                 │         │                  │         │                 │
 │ - Telegram      │         │ - inbox/         │         │ - CLI           │
 │ - WhatsApp      │         │ - outbox/        │         │ - System cmds   │
@@ -277,6 +277,6 @@ MIT License - Ver archivo LICENSE
 
 ---
 
-**Creado por:** Aki & Kira para Kaiho  
+**Creado por:** OpenClaw & Hermes Community  
 **Versión:** 3.1  
 **Última actualización:** 2026-04-22
